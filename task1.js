@@ -1,2 +1,4 @@
-let name = prompt('What is your name?');
-alert("Hello, " + name + " How are you?");
+// Dz #1
+
+// let name = prompt('What is your name?');
+// alert("Hello, " + name + " How are you?");
