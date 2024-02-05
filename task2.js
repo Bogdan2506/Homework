@@ -14,10 +14,12 @@ let number = parseInt(prompt("Введіть вашу п'ятизначне чи
 
 // let number = 12345; 
 
-let num5 = (number % 10) | 0;
-let num4 = ((number % 100) / 10) | 0;
-let num3 = ((number % 1000) / 100) | 0;
-let num2 = ((number % 10000) / 1000) | 0;
-let num1 = (number / 10000) | 0;
+
+
+let num5 = number % 10;
+let num4 = parseInt((number % 100) / 10);
+let num3 = parseInt((number % 1000) / 100);
+let num2 = parseInt((number % 10000) / 1000);
+let num1 = parseInt(number / 10000);
 
 console.log(num1, num2, num3, num4, num5);

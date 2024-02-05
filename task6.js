@@ -24,11 +24,11 @@ if (birthYear === null) {
 
 
             let message1 = "";
-            if (city.toLowerCase() === "київ") {
+            if (city === "Київ") {
                 message1 = "Ти живеш у столиці України: Київ.";
-            } else if (city.toLowerCase() === "вашингтон") {
+            } else if (city === "Вашингтон") {
                 message1 = "Ти живеш у столиці США: Вашингтон.";
-            } else if (city.toLowerCase() === "лондон") {
+            } else if (city === "Лондон") {
                 message1 = "Ти живеш у столиці Великої Британії: Лондон.";
             } else {
                 message1 = `Ти живеш у місті ${city}.`;
@@ -39,11 +39,11 @@ if (birthYear === null) {
             let message = `Твій вік: ${age} років.\n${message1}\n`;
 
             let champion = "";
-            if (favoriteSport.toLowerCase() === "футбол") {
+            if (favoriteSport === "футбол") {
                 champion = "Кріштіану Роналду";
-            } else if (favoriteSport.toLowerCase() === "баскетбол") {
+            } else if (favoriteSport === "баскетбол") {
                 champion = "Леброн Джеймс";
-            } else if (favoriteSport.toLowerCase() === "теніс") {
+            } else if (favoriteSpo === "теніс") {
                 champion = "Рафаель Надаль";
             } else {
                 champion = "новим чемпіоном";
